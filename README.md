@@ -32,6 +32,7 @@ Describe, how to install the project, like:
 3) start the dev server via `npm run dev`
 4) suddenly a miracle appears
 5) open your webbrowser on http://localhost:3000
+6) ./google-cloud-sdk/bin/gcloud init
 
 ## How to use the Project 
 
