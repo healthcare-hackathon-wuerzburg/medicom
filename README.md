@@ -2,11 +2,11 @@
 
 ## Problem Statement
 
-Describe the main problem here.
+Medical practitioners face a significant time challenge in conducting comprehensive patient evaluations due to overcrowded outpatient clinics. The extensive process of gathering patients' biological, psychological, social, and economic backgrounds, coupled with documenting previous pharmaceutical interventions, limits the time available for meaningful discussions about illnesses and treatments. This bottleneck hinders the overall quality of patient-doctor interactions and compromises the efficiency of healthcare delivery.
 
 ## Idea
 
-Describe how you are going to solve this problem
+Introducing iDocBot, an intelligent chatbot to streamline initial patient assessments. Patients, equipped with a headset and tablet, interact with iDocBot in the waiting room or even at home, answering predefined questions about symptoms, medications, and history. iDocBot provides a summarized overview for physicians, enhancing efficiency and facilitating focused consultations.
 
 ## Getting Started
 
