@@ -82,7 +82,7 @@ Describe, how new team members can contribute to the existing repository, like:
 
 Works perfect on Macbook, don't know about other devices.
 
-Project created as part of Helthcare Hackathon.
+Project created as part of Healthcare Hackathon.
 
 ## Useful links:
 
