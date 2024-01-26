@@ -28,8 +28,7 @@ List all requirements here
 Describe, how to install the project, like:
 
 1) clone the repository via `git clone ...`
-2) install libraries via `pip install -r requirements.txt
-`
+2) install libraries via `pip install -r requirements.txt`
 3) start the dev server via `npm run dev`
 4) suddenly a miracle appears
 5) open your webbrowser on http://localhost:3000
