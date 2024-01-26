@@ -50,13 +50,21 @@ End goal for this project is a mobile application that has speech input and outp
 ## Project Overview
 
 Database:
--Table Fragen: Contains all questions, answer scheme, input method
--Table Grafiken: Contains graphics and their respectable name
--Table Themenbereiche: Contains medical fields, currently only questions for pain clinic
--Table FrageGrafik: Connects Graphic to their respectable question
--Table FragenChoices: Contains Question IDs for all single choice questions as well as the number of choices
--Table NextFrageWennFalse: Sometimes questions can be left out when certain conditions are met, currently not used
--Table ThemenbereichFragen: Connects medical field and the questions applicable to this field, currently not used
+
+Table Fragen: Contains all questions, answer scheme, input method
+
+Table Grafiken: Contains graphics and their respectable name
+
+Table Themenbereiche: Contains medical fields, currently only questions for pain clinic
+
+Table FrageGrafik: Connects Graphic to their respectable question
+
+Table FragenChoices: Contains Question IDs for all single choice questions as well as the number of choices
+
+Table NextFrageWennFalse: Sometimes questions can be left out when certain conditions are met, currently not used
+
+Table ThemenbereichFragen: Connects medical field and the questions applicable to this field, currently not used
+
 
 View documentation in .py files for more information.
 
