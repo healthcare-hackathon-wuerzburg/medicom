@@ -33,23 +33,32 @@ Describe, how to install the project, like:
 3) setup server or localhost for database
 4) update login information in MySQLDatabase.py
 5) create api key for Google Vertex AI
-6) in terminal: './google-cloud-sdk/bin/gcloud init'
+6) in terminal: `./google-cloud-sdk/bin/gcloud init`
 7) login to google account
-8) in terminal: './google-cloud-sdk/bin/gcloud auth application-default login
+8) in terminal: `./google-cloud-sdk/bin/gcloud auth application-default login`
 9) update api key (project_id) in VertexAI.py
 10) launch main.py
 
 ## How to use the Project 
 
-The project,  
+The project, especially the database, is highly modular and can be extended by questions of different medical fields. Each question has to be provided with an answer scheme which the Vertex AI will receive to interpret the patients answer. The input method has to be specified as well.
 
 ## Deployment
 
-Describe, how the project can be deployed (if necessary). How can i spin up a docker container that executes something, how can i move the containers to a server, how can I use the trained ML model, ... (if applicable in your project context).
+End goal for this project is a mobile application that has speech input and output and can be used by patients in doctors offices or at home on their own mobile device.
 
 ## Project Overview
 
-Describe how the project is structured. Describe the architecture and the main components (if necessary) and the interaction between these components.
+Database:
+Table Fragen: Contains all questions, answer scheme, input method
+Table Grafiken: Contains graphics and their respectable name
+Table Themenbereiche: Contains medical fields, currently only questions for pain clinic
+Table FrageGrafik: Connects Graphic to their respectable question
+Table FragenChoices: Contains Question IDs for all single choice questions as well as the number of choices
+Table NextFrageWennFalse: Sometimes questions can be left out when certain conditions are met, currently not used
+Table ThemenbereichFragen: Connects medical field and the questions applicable to this field, currently not used
+
+View documentation in .py files for more information.
 
 ## How to Contribute
 
@@ -69,3 +78,4 @@ Are there any additional information that are important to understand how this c
 
 - [Most common Git commands](https://rogerdudler.github.io/git-guide/index.de.html)
 - [How to create a GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+- [https://cloud.google.com/vertex-ai?hl=de]
