@@ -80,10 +80,10 @@ Describe, how new team members can contribute to the existing repository, like:
 
 ## Additional Information
 
-Are there any additional information that are important to understand how this code works?
+Works perfect on Macbook, don't know about other devices.
 
 ## Useful links:
 
 - [Most common Git commands](https://rogerdudler.github.io/git-guide/index.de.html)
 - [How to create a GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-- [https://cloud.google.com/vertex-ai?hl=de]
+- [Vertex AI](https://cloud.google.com/vertex-ai?hl=de)
