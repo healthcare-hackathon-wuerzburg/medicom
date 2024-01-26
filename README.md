@@ -17,6 +17,7 @@ This section describes the requirements of the project and how to get started.
 List all requirements here
 
 - Python
+- Database server or localhost (mysql database)
 - tkinter (for GUI components in Python)
 - Pillow (for working with images in Python)
 - vertexai (for interacting with googles Vertex AI models)
@@ -29,14 +30,18 @@ Describe, how to install the project, like:
 
 1) clone the repository via `git clone ...`
 2) install libraries via `pip install -r requirements.txt`
-3) start the dev server via `npm run dev`
-4) suddenly a miracle appears
-5) open your webbrowser on http://localhost:3000
-6) ./google-cloud-sdk/bin/gcloud init
+3) setup server or localhost for database
+4) update login information in MySQLDatabase.py
+5) create api key for Google Vertex AI
+6) in terminal: './google-cloud-sdk/bin/gcloud init'
+7) login to google account
+8) in terminal: './google-cloud-sdk/bin/gcloud auth application-default login
+9) update api key (project_id) in VertexAI.py
+10) launch main.py
 
 ## How to use the Project 
 
-Describe, how someone can work with the developed application / library. How can I access basic functionality, ...
+The project,  
 
 ## Deployment
 
