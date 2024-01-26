@@ -3,7 +3,7 @@ from vertexai.language_models import TextGenerationModel, ChatModel, InputOutput
 
 
 class VertexAI:
-    def __init__(self, project_id='ninth-airship-412312', location='us-central1', temperature=0.2):
+    def __init__(self, project_id='xxxxxxxx', location='us-central1', temperature=0.2):
         """
         Initializes a VertexAI instance.
 
