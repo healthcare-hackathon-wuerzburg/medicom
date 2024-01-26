@@ -82,6 +82,8 @@ Describe, how new team members can contribute to the existing repository, like:
 
 Works perfect on Macbook, don't know about other devices.
 
+Project created as part of Helthcare Hackathon.
+
 ## Useful links:
 
 - [Most common Git commands](https://rogerdudler.github.io/git-guide/index.de.html)
