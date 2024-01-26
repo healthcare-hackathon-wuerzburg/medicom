@@ -1,4 +1,4 @@
-# PROJECTNAME
+# iDocBot
 
 ## Problem Statement
 
@@ -17,8 +17,11 @@ This section describes the requirements of the project and how to get started.
 List all requirements here
 
 - Python
-- x
-- y
+- tkinter (for GUI components in Python)
+- Pillow (for working with images in Python)
+- vertexai (for interacting with googles Vertex AI models)
+- pathlib (for working with file paths in Python)
+- mysql-connector-python (for connecting with MySQL databases in Python)
 
 ### Installation
 
