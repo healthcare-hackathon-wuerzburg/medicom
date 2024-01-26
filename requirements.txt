@@ -1,0 +1,5 @@
+tk
+pillow
+pathlib
+mysql-connector-python
+google-cloud-aiplatform
